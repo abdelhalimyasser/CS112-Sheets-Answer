@@ -1,6 +1,6 @@
 # 📘 CS112 Sheets Solutions  
 
-This repository contains **solutions** to the practice sheets of [**CS112 – Programming Languages (1)**](./CS112-Exercises 7 Problems Sheets .pdf).  
+This repository contains **solutions** to the practice sheets of [CS112 – Programming Languages (1)](./CS112-Exercises 7 Problems Sheets .pdf).  
 It is created to help students understand programming concepts, problem-solving techniques, and improve their coding skills.  
 
 ---
