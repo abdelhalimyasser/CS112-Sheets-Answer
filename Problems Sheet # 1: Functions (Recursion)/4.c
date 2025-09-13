@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function prototype to declare it
-int sumNatural(int n)
+int sumNatural(int n);
 
 // Main function to test
 int main() 
