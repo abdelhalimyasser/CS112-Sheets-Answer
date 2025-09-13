@@ -1,25 +1,29 @@
 #include <stdio.h>
 
-int diff(int min, int max) {
+int difference(int max, int min) {
     return max - min;
 }
 
-int main() 
-{
-    int arr[10], i, min, max;
+int main() {
+    int num, i;
+    int min, max;
 
     printf("Enter 10 integers:\n");
-    for (i = 0; i < 10; i++)
-        scanf("%d", &arr[i]);
+    scanf("%d", &num);
+    min = max = num;
 
-    min = max = arr[0];
-    for (i = 1; i < 10; i++) {
-        if (arr[i] < min) min = arr[i];
-        if (arr[i] > max) max = arr[i];
+    for (i = 2; i <= 10; i++) {
+        scanf("%d", &num);
+
+        if (num > max)
+            max = num;
+        if (num < min)
+            min = num;
     }
 
-    printf("Smallest = %d, Greatest = %d\n", min, max);
-    printf("Difference = %d\n", diff(min, max));
+    printf("Smallest value = %d\n", min);
+    printf("Greatest value = %d\n", max);
+    printf("Difference = %d\n", difference(max, min));
 
     return 0;
 }
